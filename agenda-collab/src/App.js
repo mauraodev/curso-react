@@ -1,9 +1,10 @@
 import React from "react";
+import Card from './styles';
 
 const App = () => (
-    <article>
+    <Card>
         <h1>Hello World</h1>
-    </article>
+    </Card>
 );
 
 export default App;
