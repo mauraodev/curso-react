@@ -1,9 +1,12 @@
 import React from "react";
-import Card from './styles';
+import { Card, Name, Price, Description, Button } from './styles';
 
 const App = () => (
     <Card>
-        <h1>Hello World</h1>
+        <Name>Curso React</Name>
+        <Price>$25</Price>
+        <Description>Professional</Description>
+        <Button>Buy</Button>
     </Card>
 );
 
