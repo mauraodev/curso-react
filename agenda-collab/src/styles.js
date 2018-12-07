@@ -7,6 +7,11 @@ export const Card = styled.article`
     background-color: ${color};
     color: #fff;
     text-align: center;
+    padding-top: 58px;
+    padding-bottom: 40px;
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
 `;
 
 export const Name = styled.h1`
@@ -20,6 +25,7 @@ export const Price = styled.h2``;
 export const Description = styled.p``;
 
 export const Button = styled.a`
+    display: inline-block;
     box-sizing: border-box;
     line-height: 35px;
     border-radius: 4px;
