@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { center } from './styles/tools';
 
 const color = '#3b86ff';
 
@@ -10,8 +11,7 @@ export const Card = styled.article`
     padding-top: 58px;
     padding-bottom: 40px;
     width: 370px;
-    margin-left: auto;
-    margin-right: auto;
+    ${center}
 `;
 
 export const Name = styled.h1`
