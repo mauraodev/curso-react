@@ -1,0 +1,23 @@
+:root {
+    --color-info: gray;
+}
+
+form {
+    --color-info: red;
+}
+
+.title {
+
+}
+
+.subtitle {
+
+}
+
+.text {
+    color: var(--color-info);
+}
+
+.info {
+    color: var(--color-info);
+}
