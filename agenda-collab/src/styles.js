@@ -3,8 +3,7 @@ import { center } from './styles/tools';
 
 const color = '#3b86ff';
 
-export const Card = styled.article`
-    font-family: 'Open Sans', sans-serif;
+export const Card = styled.article`    
     background-color: ${color};
     color: #fff;
     text-align: center;
