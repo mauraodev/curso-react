@@ -13,7 +13,7 @@ const CardCollab = () => {
         <Card>
             <Name>Curso React</Name>
             <Price>$25</Price>
-            <Description>Professional</Description>
+            <Description>Professional lorem lorem lorem lorem</Description>
             <ButtonCollab>Buy</ButtonCollab>
         </Card>
     )
