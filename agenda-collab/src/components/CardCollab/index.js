@@ -8,12 +8,12 @@ import ButtonCollab from '../ButtonCollab';
 
 import Card  from './styles';
 
-const CardCollab = () => {
+const CardCollab = props => {
     return (
         <Card>
-            <Name>Curso React</Name>
-            <Price>$25</Price>
-            <Description>Professional lorem lorem lorem lorem</Description>
+            <Name>{props.name}</Name>
+            <Price><small>c$</small>{props.price}</Price>
+            <Description>{props.description}</Description>
             <ButtonCollab>Buy</ButtonCollab>
         </Card>
     )

@@ -6,7 +6,7 @@ const Description = styled.p`
     font-size: 18px;
     width: 270px;
     ${center};
-    margin-bottom: var(--spacing-medium);
+    margin-bottom: var(--spacing-big);
 `;
 
 export default Description;
